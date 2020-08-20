@@ -1,0 +1,38 @@
+.sidepanel {
+    z-index: 100;
+    position: fixed;
+    top: 50vh;
+    left: -100px;
+    height: 25px;
+    width: 340px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transform: rotate(90deg);
+
+    &__link {
+        height: 20px;
+        width: 20px;
+        transform: rotate(-90deg);
+        
+    }
+
+    // .sidepanel__divider
+
+    &__divider {
+        align-self: center;
+        width: 70px;
+        height: 0px;
+        border: 1px solid #000000;
+    }
+
+    // .sidepanel__text
+
+    &__text {
+        width: 150px;
+        font-weight: bold;
+        font-size: 16px;
+        transform: rotate(180deg);
+        color: #000000;
+    }
+}
