@@ -9,3 +9,12 @@ hamburger.addEventListener('click', ()=>{
 menuClose.addEventListener('click', ()=>{
         menu.classList.remove('active');
 });
+
+/*============raiting counter=============== */
+
+const counters=document.querySelectorAll('.skills__skale-value');
+const lines = document.querySelectorAll('.skills__skale-subskale');
+
+counters.forEach((item,i)=> {
+        lines[i].style.width = item.innerHTML;
+});
