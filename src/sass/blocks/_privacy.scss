@@ -1,0 +1,13 @@
+.privacy {
+        padding: 70px 0;
+        .container {
+                max-width: 90%;
+        }
+        &__list {
+                list-style: none;
+                li {
+                        list-style: none;
+                        margin-left: 30px;
+                }
+        }
+}
