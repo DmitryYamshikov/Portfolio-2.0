@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 .divider {
@@ -35,3 +35,4 @@ body {
 @import "blocks/price";
 @import "blocks/contacts";
 @import "blocks/privacy";
+@import "blocks/media";

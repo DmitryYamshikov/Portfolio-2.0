@@ -82,8 +82,8 @@
 
         &__skales-item {
                 display: grid;
-                grid-template-columns: repeat(2, 175px);
-                grid-template-rows: repeat(2, 41px);
+                grid-template-columns: 175px 125px;
+                grid-template-rows: repeat(2, 40px);
                 justify-content: space-between;
                 
 
